@@ -90,6 +90,8 @@ void testMidFrameAndSilence() {
   check(tcEq(r.frames.front().tc, 3, 0, 0, 1), "mid-frame: first full frame");
   check(r.frames.front().startSample >= 9600, "mid-frame: starts after silence");
   check(r.segments.size() == 1, "mid-frame: single segment");
+  check(r.segments[0].endReason == "signal_loss",
+        "mid-frame: trailing silence ends with signal_loss");
 }
 
 void testChunkInvariance() {

@@ -139,6 +139,7 @@ int main(int argc, char** argv) {
         {"start_timecode", ltc::toString(s.first.tc)},
         {"end_timecode", ltc::toString(s.last.tc)},
         {"frames", s.frames},
+        {"first_frame", s.firstFrame},
         {"start_sample", s.first.startSample},
         {"end_sample", s.last.endSample},
         {"start_seconds", s.first.startSample / static_cast<double>(kSampleRate)},

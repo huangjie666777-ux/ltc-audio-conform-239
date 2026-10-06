@@ -4,6 +4,7 @@
 #include "ltc_encoder.h"
 #define DR_WAV_IMPLEMENTATION
 #include "dr_wav.h"
+#include <cmath>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -24,6 +25,8 @@ int main(int argc, char** argv) {
   ltcgen::Options o;
   std::string out = "example.wav";
   int channels = 1, ltcChannel = 0;
+  double programTone = 0.0;
+  int programAmp = 12000;
   for (int i = 1; i < argc; ++i) {
     const std::string a = argv[i];
     auto next = [&]() { return std::string(argv[++i]); };
@@ -43,6 +46,8 @@ int main(int argc, char** argv) {
     else if (a == "--bad-at") o.badAt = std::atoi(next().c_str());
     else if (a == "--channels") channels = std::atoi(next().c_str());
     else if (a == "--channel") ltcChannel = std::atoi(next().c_str());
+    else if (a == "--program-tone") programTone = std::atof(next().c_str());
+    else if (a == "--program-amp") programAmp = std::atoi(next().c_str());
     else { std::fprintf(stderr, "unknown option: %s\n", a.c_str()); return 2; }
   }
 
@@ -60,6 +65,15 @@ int main(int argc, char** argv) {
   }
   std::vector<int16_t> inter(mono.size() * channels, 0);
   for (size_t i = 0; i < mono.size(); ++i) inter[i * channels + ltcChannel] = mono[i];
+  if (channels == 2 && programTone > 0.0) {
+    const int prog = 1 - ltcChannel;
+    for (size_t i = 0; i < mono.size(); ++i) {
+      const double t = static_cast<double>(i) / 48000.0;
+      inter[i * 2 + prog] = static_cast<int16_t>(
+          std::lround(programAmp * std::sin(2.0 * 3.14159265358979323846 *
+                                            programTone * t)));
+    }
+  }
   drwav_write_pcm_frames(&wav, mono.size(), inter.data());
   drwav_uninit(&wav);
   std::printf("wrote %s (%zu samples, %d ch, LTC on ch %d)\n", out.c_str(),

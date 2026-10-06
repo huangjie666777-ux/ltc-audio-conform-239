@@ -55,4 +55,9 @@ bool WavReader::seekToStart() {
   return drwav_seek_to_pcm_frame(static_cast<drwav*>(wav_), 0) == DRWAV_TRUE;
 }
 
+bool WavReader::seekToFrame(uint64_t frameIndex) {
+  return drwav_seek_to_pcm_frame(static_cast<drwav*>(wav_), frameIndex) ==
+         DRWAV_TRUE;
+}
+
 }  // namespace ltc

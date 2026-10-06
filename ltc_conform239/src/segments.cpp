@@ -14,6 +14,7 @@ bool sameTc(const ltc::Timecode& a, const ltc::Timecode& b) {
 }  // namespace
 
 void SegmentBuilder::onFrame(const LtcFrame& frame) {
+  const int64_t index = totalFrames_++;
   if (open_) {
     const int64_t gap = frame.startSample - current_.last.endSample;
     const bool adjacent = std::llabs(gap) <= kAdjacencyTolerance;
@@ -29,6 +30,7 @@ void SegmentBuilder::onFrame(const LtcFrame& frame) {
   current_.first = frame;
   current_.last = frame;
   current_.frames = 1;
+  current_.firstFrame = index;
   open_ = true;
 }
 

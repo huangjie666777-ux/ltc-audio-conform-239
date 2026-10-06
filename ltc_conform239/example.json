@@ -2013,6 +2013,7 @@
       "end_sample": 484800,
       "end_seconds": 10.1,
       "end_timecode": "01:00:09:24",
+      "first_frame": 0,
       "frames": 250,
       "start_sample": 4800,
       "start_seconds": 0.1,

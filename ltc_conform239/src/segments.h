@@ -9,6 +9,7 @@ struct Segment {
   LtcFrame first;
   LtcFrame last;
   int frames = 0;
+  int64_t firstFrame = 0;  // index of first frame in the delivered stream
   std::string endReason;
 };
 
@@ -28,6 +29,7 @@ private:
   void close(const std::string& reason);
   Segment current_;
   bool open_ = false;
+  int64_t totalFrames_ = 0;
 };
 
 }  // namespace ltc

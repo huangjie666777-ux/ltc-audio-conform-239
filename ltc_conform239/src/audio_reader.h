@@ -17,6 +17,7 @@ public:
   // Reads up to n frames of channel ch into out; returns frames read.
   uint64_t readChannel(int ch, int16_t* out, uint64_t n);
   bool seekToStart();
+  bool seekToFrame(uint64_t frameIndex);
 
 private:
   std::string path_;
