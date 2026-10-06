@@ -13,6 +13,7 @@ double clampPeriod(double p) {
 }  // namespace
 
 void BiphaseDecoder::pushSample(int16_t sample, int64_t index) {
+  lastIndex_ = index;
   if (sign_ <= 0 && sample > kEdgeThreshold) {
     sign_ = 1;
     processEdge(index);
@@ -62,6 +63,14 @@ void BiphaseDecoder::processEdge(int64_t pos) {
   }
 }
 
-void BiphaseDecoder::finish() {}
+void BiphaseDecoder::finish() {
+  // Trailing silence after the last edge is a signal loss, not a clean
+  // end of stream: report it through the same gap path used mid-stream.
+  if (haveEdge_ && lastIndex_ > lastEdge_ &&
+      static_cast<double>(lastIndex_ - lastEdge_) > 1.5 * bitPeriod_) {
+    halfPending_ = false;
+    if (onGap) onGap();
+  }
+}
 
 }  // namespace ltc

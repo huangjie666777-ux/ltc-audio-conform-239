@@ -2,6 +2,7 @@
 // 48 kHz PCM16 WAV files. No UI, no playback, no video, no network.
 #include "audio_reader.h"
 #include "biphase.h"
+#include "conform.h"
 #include "ltc_frame.h"
 #include "segments.h"
 
@@ -22,6 +23,12 @@ void usage(const char* argv0) {
   std::fprintf(stderr,
                "usage: %s <input.wav> [--channel 0|1|auto] [--chunk N] "
                "[--json out.json]\n",
+               argv0);
+  std::fprintf(stderr,
+               "       %s conform --a A.wav --channel-a 0|1 --segment-a N"
+               " --b B.wav --channel-b 0|1 --segment-b N"
+               " --start HH:MM:SS:FF --frames N --out out.wav"
+               " [--chunk N] [--json handoff.json]\n",
                argv0);
 }
 
@@ -48,8 +55,50 @@ int pickChannel(ltc::WavReader& wav) {
 
 }  // namespace
 
+namespace {
+
+int conformMain(int argc, char** argv) {
+  ltc::ConformOptions opt;
+  std::string startStr;
+  for (int i = 2; i < argc; ++i) {
+    const std::string a = argv[i];
+    auto next = [&](const char* flag) -> std::string {
+      if (i + 1 >= argc) {
+        std::fprintf(stderr, "missing value for %s\n", flag);
+        std::exit(2);
+      }
+      return argv[++i];
+    };
+    if (a == "--a") opt.pathA = next("--a");
+    else if (a == "--b") opt.pathB = next("--b");
+    else if (a == "--channel-a") opt.channelA = std::atoi(next("--channel-a").c_str());
+    else if (a == "--channel-b") opt.channelB = std::atoi(next("--channel-b").c_str());
+    else if (a == "--segment-a") opt.segmentA = std::atoi(next("--segment-a").c_str());
+    else if (a == "--segment-b") opt.segmentB = std::atoi(next("--segment-b").c_str());
+    else if (a == "--start") startStr = next("--start");
+    else if (a == "--frames") opt.frames = std::atoll(next("--frames").c_str());
+    else if (a == "--out") opt.outWav = next("--out");
+    else if (a == "--json") opt.jsonPath = next("--json");
+    else if (a == "--chunk") opt.chunkFrames = std::atoi(next("--chunk").c_str());
+    else { usage(argv[0]); return 2; }
+  }
+  if (opt.pathA.empty() || opt.pathB.empty() || startStr.empty() ||
+      opt.outWav.empty() || opt.chunkFrames <= 0 ||
+      !ltc::parseTimecode(startStr, opt.start)) {
+    usage(argv[0]);
+    return 2;
+  }
+  std::string error;
+  const int rc = ltc::runConform(opt, error);
+  if (rc != 0) std::fprintf(stderr, "error: %s\n", error.c_str());
+  return rc;
+}
+
+}  // namespace
+
 int main(int argc, char** argv) {
   if (argc < 2) { usage(argv[0]); return 2; }
+  if (std::strcmp(argv[1], "conform") == 0) return conformMain(argc, argv);
   std::string inputPath;
   int channel = -1;  // -1 = auto
   int chunkFrames = kDefaultChunk;

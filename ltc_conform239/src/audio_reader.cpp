@@ -55,4 +55,48 @@ bool WavReader::seekToStart() {
   return drwav_seek_to_pcm_frame(static_cast<drwav*>(wav_), 0) == DRWAV_TRUE;
 }
 
+bool WavReader::seekToFrame(uint64_t frameIndex) {
+  return drwav_seek_to_pcm_frame(static_cast<drwav*>(wav_), frameIndex) ==
+         DRWAV_TRUE;
+}
+
+WavWriter::~WavWriter() {
+  if (wav_) {
+    drwav_uninit(static_cast<drwav*>(wav_));
+    delete static_cast<drwav*>(wav_);
+  }
+}
+
+bool WavWriter::open(const std::string& path, int channels,
+                     std::string& error) {
+  drwav_data_format fmt{};
+  fmt.container = drwav_container_riff;
+  fmt.format = DR_WAVE_FORMAT_PCM;
+  fmt.channels = static_cast<drwav_uint32>(channels);
+  fmt.sampleRate = 48000;
+  fmt.bitsPerSample = 16;
+  drwav* wav = new drwav;
+  if (!drwav_init_file_write(wav, path.c_str(), &fmt, nullptr)) {
+    delete wav;
+    error = "cannot write WAV file: " + path;
+    return false;
+  }
+  wav_ = wav;
+  return true;
+}
+
+bool WavWriter::write(const int16_t* interleaved, uint64_t frames) {
+  return drwav_write_pcm_frames(static_cast<drwav*>(wav_), frames,
+                                interleaved) == frames;
+}
+
+bool WavWriter::close() {
+  if (!wav_) return false;
+  drwav* wav = static_cast<drwav*>(wav_);
+  wav_ = nullptr;
+  const drwav_result r = drwav_uninit(wav);
+  delete wav;
+  return r == DRWAV_SUCCESS;
+}
+
 }  // namespace ltc

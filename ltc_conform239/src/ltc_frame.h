@@ -12,6 +12,7 @@ struct Timecode {
 
 std::string toString(const Timecode& tc);  // "HH:MM:SS:FF"
 Timecode increment(const Timecode& tc);    // +1 frame at 25 fps, midnight wrap
+bool parseTimecode(const std::string& s, Timecode& tc);  // "HH:MM:SS:FF"
 
 struct LtcFrame {
   Timecode tc;

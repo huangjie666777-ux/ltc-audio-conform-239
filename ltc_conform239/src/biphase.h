@@ -28,6 +28,7 @@ private:
   double bitPeriod_ = kNominalBitPeriod;
   bool haveEdge_ = false;
   int64_t lastEdge_ = 0;
+  int64_t lastIndex_ = -1;
   bool halfPending_ = false;
   int64_t cellStart_ = 0;
 };

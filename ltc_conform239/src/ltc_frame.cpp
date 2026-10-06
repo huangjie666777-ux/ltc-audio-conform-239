@@ -49,6 +49,15 @@ Timecode increment(const Timecode& tc) {
   return r;
 }
 
+bool parseTimecode(const std::string& s, Timecode& tc) {
+  char extra = 0;
+  if (std::sscanf(s.c_str(), "%d:%d:%d:%d%c", &tc.h, &tc.m, &tc.s, &tc.f,
+                  &extra) != 4)
+    return false;
+  return tc.h >= 0 && tc.h <= 23 && tc.m >= 0 && tc.m <= 59 && tc.s >= 0 &&
+         tc.s <= 59 && tc.f >= 0 && tc.f <= 24;
+}
+
 std::string bitsToHex(const std::array<uint8_t, 80>& bits) {
   std::string hex(20, '0');
   for (int i = 0; i < 80; ++i) {

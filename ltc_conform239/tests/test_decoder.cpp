@@ -177,6 +177,18 @@ void testWavStereo() {
   std::remove("test_stereo.wav");
 }
 
+void testTrailingSilenceEndReason() {
+  ltcgen::Options o; o.start = {5, 0, 0, 0}; o.frames = 30;
+  const auto clean = decode(ltcgen::encode(o), 4096);
+  check(clean.segments.size() == 1 &&
+        clean.segments[0].endReason == "end_of_stream",
+        "eos: clean stream end keeps end_of_stream");
+  o.tailSilence = 4800;
+  const auto tail = decode(ltcgen::encode(o), 4096);
+  check(tail.segments.size() == 1 && tail.segments[0].endReason == "signal_loss",
+        "eos: trailing silence reported as signal_loss");
+}
+
 }  // namespace
 
 int main() {
@@ -190,6 +202,7 @@ int main() {
   testMidnightWrap();
   testTimecodeJump();
   testGap();
+  testTrailingSilenceEndReason();
   testWavStereo();
   std::printf(failures ? "FAILED: %d\n" : "ALL TESTS PASSED\n", failures);
   return failures ? 1 : 0;
