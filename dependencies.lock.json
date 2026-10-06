@@ -1,0 +1,23 @@
+{
+  "project": "ltc_conform239",
+  "language": "C++17",
+  "compiler": "GCC 11.4.0",
+  "build": "GNU Make 4.3",
+  "dependencies": [
+    {
+      "name": "dr_wav.h",
+      "source": "https://raw.githubusercontent.com/mackron/dr_libs/877b0967ce679148f60d69bb2d9173487717d8de/dr_wav.h",
+      "sha256": "c625122420ee8e769c5d16c9d4634b2d4a68dad304481371e9ac9e2ea025af8e"
+    },
+    {
+      "name": "nlohmann/json.hpp",
+      "source": "https://raw.githubusercontent.com/nlohmann/json/v3.11.3/single_include/nlohmann/json.hpp",
+      "sha256": "9bea4c8066ef4a1c206b2be5a36302f8926f7fdc6087af5d20b417d0cf103ea6"
+    },
+    {
+      "name": "nlohmann/LICENSE.MIT",
+      "source": "https://raw.githubusercontent.com/nlohmann/json/v3.11.3/LICENSE.MIT",
+      "sha256": "86b998c792894ccb911a1cb7994f7a9652894e7a094c0b5e45be2f553f45cf14"
+    }
+  ]
+}

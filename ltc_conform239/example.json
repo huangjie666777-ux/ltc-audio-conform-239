@@ -1,0 +1,2023 @@
+{
+  "channel": 1,
+  "channels": 2,
+  "chunk_frames": 4096,
+  "file": "example.wav",
+  "frame_count": 250,
+  "frames": [
+    {
+      "bits_hex": "0000000000001000cffb",
+      "sample_end": 6720,
+      "sample_start": 4800,
+      "seconds_end": 0.14,
+      "seconds_start": 0.1,
+      "timecode": "01:00:00:00"
+    },
+    {
+      "bits_hex": "1000000000001000cffb",
+      "sample_end": 8640,
+      "sample_start": 6720,
+      "seconds_end": 0.18,
+      "seconds_start": 0.14,
+      "timecode": "01:00:00:01"
+    },
+    {
+      "bits_hex": "2000000000001000cffb",
+      "sample_end": 10560,
+      "sample_start": 8640,
+      "seconds_end": 0.22,
+      "seconds_start": 0.18,
+      "timecode": "01:00:00:02"
+    },
+    {
+      "bits_hex": "3000000000001000cffb",
+      "sample_end": 12480,
+      "sample_start": 10560,
+      "seconds_end": 0.26,
+      "seconds_start": 0.22,
+      "timecode": "01:00:00:03"
+    },
+    {
+      "bits_hex": "4000000000001000cffb",
+      "sample_end": 14400,
+      "sample_start": 12480,
+      "seconds_end": 0.3,
+      "seconds_start": 0.26,
+      "timecode": "01:00:00:04"
+    },
+    {
+      "bits_hex": "5000000000001000cffb",
+      "sample_end": 16320,
+      "sample_start": 14400,
+      "seconds_end": 0.34,
+      "seconds_start": 0.3,
+      "timecode": "01:00:00:05"
+    },
+    {
+      "bits_hex": "6000000000001000cffb",
+      "sample_end": 18240,
+      "sample_start": 16320,
+      "seconds_end": 0.38,
+      "seconds_start": 0.34,
+      "timecode": "01:00:00:06"
+    },
+    {
+      "bits_hex": "7000000000001000cffb",
+      "sample_end": 20160,
+      "sample_start": 18240,
+      "seconds_end": 0.42,
+      "seconds_start": 0.38,
+      "timecode": "01:00:00:07"
+    },
+    {
+      "bits_hex": "8000000000001000cffb",
+      "sample_end": 22080,
+      "sample_start": 20160,
+      "seconds_end": 0.46,
+      "seconds_start": 0.42,
+      "timecode": "01:00:00:08"
+    },
+    {
+      "bits_hex": "9000000000001000cffb",
+      "sample_end": 24000,
+      "sample_start": 22080,
+      "seconds_end": 0.5,
+      "seconds_start": 0.46,
+      "timecode": "01:00:00:09"
+    },
+    {
+      "bits_hex": "0010000000001000cffb",
+      "sample_end": 25920,
+      "sample_start": 24000,
+      "seconds_end": 0.54,
+      "seconds_start": 0.5,
+      "timecode": "01:00:00:10"
+    },
+    {
+      "bits_hex": "1010000000001000cffb",
+      "sample_end": 27840,
+      "sample_start": 25920,
+      "seconds_end": 0.58,
+      "seconds_start": 0.54,
+      "timecode": "01:00:00:11"
+    },
+    {
+      "bits_hex": "2010000000001000cffb",
+      "sample_end": 29760,
+      "sample_start": 27840,
+      "seconds_end": 0.62,
+      "seconds_start": 0.58,
+      "timecode": "01:00:00:12"
+    },
+    {
+      "bits_hex": "3010000000001000cffb",
+      "sample_end": 31680,
+      "sample_start": 29760,
+      "seconds_end": 0.66,
+      "seconds_start": 0.62,
+      "timecode": "01:00:00:13"
+    },
+    {
+      "bits_hex": "4010000000001000cffb",
+      "sample_end": 33600,
+      "sample_start": 31680,
+      "seconds_end": 0.7,
+      "seconds_start": 0.66,
+      "timecode": "01:00:00:14"
+    },
+    {
+      "bits_hex": "5010000000001000cffb",
+      "sample_end": 35520,
+      "sample_start": 33600,
+      "seconds_end": 0.74,
+      "seconds_start": 0.7,
+      "timecode": "01:00:00:15"
+    },
+    {
+      "bits_hex": "6010000000001000cffb",
+      "sample_end": 37440,
+      "sample_start": 35520,
+      "seconds_end": 0.78,
+      "seconds_start": 0.74,
+      "timecode": "01:00:00:16"
+    },
+    {
+      "bits_hex": "7010000000001000cffb",
+      "sample_end": 39360,
+      "sample_start": 37440,
+      "seconds_end": 0.82,
+      "seconds_start": 0.78,
+      "timecode": "01:00:00:17"
+    },
+    {
+      "bits_hex": "8010000000001000cffb",
+      "sample_end": 41280,
+      "sample_start": 39360,
+      "seconds_end": 0.86,
+      "seconds_start": 0.82,
+      "timecode": "01:00:00:18"
+    },
+    {
+      "bits_hex": "9010000000001000cffb",
+      "sample_end": 43200,
+      "sample_start": 41280,
+      "seconds_end": 0.9,
+      "seconds_start": 0.86,
+      "timecode": "01:00:00:19"
+    },
+    {
+      "bits_hex": "0020000000001000cffb",
+      "sample_end": 45120,
+      "sample_start": 43200,
+      "seconds_end": 0.94,
+      "seconds_start": 0.9,
+      "timecode": "01:00:00:20"
+    },
+    {
+      "bits_hex": "1020000000001000cffb",
+      "sample_end": 47040,
+      "sample_start": 45120,
+      "seconds_end": 0.98,
+      "seconds_start": 0.94,
+      "timecode": "01:00:00:21"
+    },
+    {
+      "bits_hex": "2020000000001000cffb",
+      "sample_end": 48960,
+      "sample_start": 47040,
+      "seconds_end": 1.02,
+      "seconds_start": 0.98,
+      "timecode": "01:00:00:22"
+    },
+    {
+      "bits_hex": "3020000000001000cffb",
+      "sample_end": 50880,
+      "sample_start": 48960,
+      "seconds_end": 1.06,
+      "seconds_start": 1.02,
+      "timecode": "01:00:00:23"
+    },
+    {
+      "bits_hex": "4020000000001000cffb",
+      "sample_end": 52800,
+      "sample_start": 50880,
+      "seconds_end": 1.1,
+      "seconds_start": 1.06,
+      "timecode": "01:00:00:24"
+    },
+    {
+      "bits_hex": "0000100000001000cffb",
+      "sample_end": 54720,
+      "sample_start": 52800,
+      "seconds_end": 1.14,
+      "seconds_start": 1.1,
+      "timecode": "01:00:01:00"
+    },
+    {
+      "bits_hex": "1000100000001000cffb",
+      "sample_end": 56640,
+      "sample_start": 54720,
+      "seconds_end": 1.18,
+      "seconds_start": 1.14,
+      "timecode": "01:00:01:01"
+    },
+    {
+      "bits_hex": "2000100000001000cffb",
+      "sample_end": 58560,
+      "sample_start": 56640,
+      "seconds_end": 1.22,
+      "seconds_start": 1.18,
+      "timecode": "01:00:01:02"
+    },
+    {
+      "bits_hex": "3000100000001000cffb",
+      "sample_end": 60480,
+      "sample_start": 58560,
+      "seconds_end": 1.26,
+      "seconds_start": 1.22,
+      "timecode": "01:00:01:03"
+    },
+    {
+      "bits_hex": "4000100000001000cffb",
+      "sample_end": 62400,
+      "sample_start": 60480,
+      "seconds_end": 1.3,
+      "seconds_start": 1.26,
+      "timecode": "01:00:01:04"
+    },
+    {
+      "bits_hex": "5000100000001000cffb",
+      "sample_end": 64320,
+      "sample_start": 62400,
+      "seconds_end": 1.34,
+      "seconds_start": 1.3,
+      "timecode": "01:00:01:05"
+    },
+    {
+      "bits_hex": "6000100000001000cffb",
+      "sample_end": 66240,
+      "sample_start": 64320,
+      "seconds_end": 1.38,
+      "seconds_start": 1.34,
+      "timecode": "01:00:01:06"
+    },
+    {
+      "bits_hex": "7000100000001000cffb",
+      "sample_end": 68160,
+      "sample_start": 66240,
+      "seconds_end": 1.42,
+      "seconds_start": 1.38,
+      "timecode": "01:00:01:07"
+    },
+    {
+      "bits_hex": "8000100000001000cffb",
+      "sample_end": 70080,
+      "sample_start": 68160,
+      "seconds_end": 1.46,
+      "seconds_start": 1.42,
+      "timecode": "01:00:01:08"
+    },
+    {
+      "bits_hex": "9000100000001000cffb",
+      "sample_end": 72000,
+      "sample_start": 70080,
+      "seconds_end": 1.5,
+      "seconds_start": 1.46,
+      "timecode": "01:00:01:09"
+    },
+    {
+      "bits_hex": "0010100000001000cffb",
+      "sample_end": 73920,
+      "sample_start": 72000,
+      "seconds_end": 1.54,
+      "seconds_start": 1.5,
+      "timecode": "01:00:01:10"
+    },
+    {
+      "bits_hex": "1010100000001000cffb",
+      "sample_end": 75840,
+      "sample_start": 73920,
+      "seconds_end": 1.58,
+      "seconds_start": 1.54,
+      "timecode": "01:00:01:11"
+    },
+    {
+      "bits_hex": "2010100000001000cffb",
+      "sample_end": 77760,
+      "sample_start": 75840,
+      "seconds_end": 1.62,
+      "seconds_start": 1.58,
+      "timecode": "01:00:01:12"
+    },
+    {
+      "bits_hex": "3010100000001000cffb",
+      "sample_end": 79680,
+      "sample_start": 77760,
+      "seconds_end": 1.66,
+      "seconds_start": 1.62,
+      "timecode": "01:00:01:13"
+    },
+    {
+      "bits_hex": "4010100000001000cffb",
+      "sample_end": 81600,
+      "sample_start": 79680,
+      "seconds_end": 1.7,
+      "seconds_start": 1.66,
+      "timecode": "01:00:01:14"
+    },
+    {
+      "bits_hex": "5010100000001000cffb",
+      "sample_end": 83520,
+      "sample_start": 81600,
+      "seconds_end": 1.74,
+      "seconds_start": 1.7,
+      "timecode": "01:00:01:15"
+    },
+    {
+      "bits_hex": "6010100000001000cffb",
+      "sample_end": 85440,
+      "sample_start": 83520,
+      "seconds_end": 1.78,
+      "seconds_start": 1.74,
+      "timecode": "01:00:01:16"
+    },
+    {
+      "bits_hex": "7010100000001000cffb",
+      "sample_end": 87360,
+      "sample_start": 85440,
+      "seconds_end": 1.82,
+      "seconds_start": 1.78,
+      "timecode": "01:00:01:17"
+    },
+    {
+      "bits_hex": "8010100000001000cffb",
+      "sample_end": 89280,
+      "sample_start": 87360,
+      "seconds_end": 1.86,
+      "seconds_start": 1.82,
+      "timecode": "01:00:01:18"
+    },
+    {
+      "bits_hex": "9010100000001000cffb",
+      "sample_end": 91200,
+      "sample_start": 89280,
+      "seconds_end": 1.9,
+      "seconds_start": 1.86,
+      "timecode": "01:00:01:19"
+    },
+    {
+      "bits_hex": "0020100000001000cffb",
+      "sample_end": 93120,
+      "sample_start": 91200,
+      "seconds_end": 1.94,
+      "seconds_start": 1.9,
+      "timecode": "01:00:01:20"
+    },
+    {
+      "bits_hex": "1020100000001000cffb",
+      "sample_end": 95040,
+      "sample_start": 93120,
+      "seconds_end": 1.98,
+      "seconds_start": 1.94,
+      "timecode": "01:00:01:21"
+    },
+    {
+      "bits_hex": "2020100000001000cffb",
+      "sample_end": 96960,
+      "sample_start": 95040,
+      "seconds_end": 2.02,
+      "seconds_start": 1.98,
+      "timecode": "01:00:01:22"
+    },
+    {
+      "bits_hex": "3020100000001000cffb",
+      "sample_end": 98880,
+      "sample_start": 96960,
+      "seconds_end": 2.06,
+      "seconds_start": 2.02,
+      "timecode": "01:00:01:23"
+    },
+    {
+      "bits_hex": "4020100000001000cffb",
+      "sample_end": 100800,
+      "sample_start": 98880,
+      "seconds_end": 2.1,
+      "seconds_start": 2.06,
+      "timecode": "01:00:01:24"
+    },
+    {
+      "bits_hex": "0000200000001000cffb",
+      "sample_end": 102720,
+      "sample_start": 100800,
+      "seconds_end": 2.14,
+      "seconds_start": 2.1,
+      "timecode": "01:00:02:00"
+    },
+    {
+      "bits_hex": "1000200000001000cffb",
+      "sample_end": 104640,
+      "sample_start": 102720,
+      "seconds_end": 2.18,
+      "seconds_start": 2.14,
+      "timecode": "01:00:02:01"
+    },
+    {
+      "bits_hex": "2000200000001000cffb",
+      "sample_end": 106560,
+      "sample_start": 104640,
+      "seconds_end": 2.22,
+      "seconds_start": 2.18,
+      "timecode": "01:00:02:02"
+    },
+    {
+      "bits_hex": "3000200000001000cffb",
+      "sample_end": 108480,
+      "sample_start": 106560,
+      "seconds_end": 2.26,
+      "seconds_start": 2.22,
+      "timecode": "01:00:02:03"
+    },
+    {
+      "bits_hex": "4000200000001000cffb",
+      "sample_end": 110400,
+      "sample_start": 108480,
+      "seconds_end": 2.3,
+      "seconds_start": 2.26,
+      "timecode": "01:00:02:04"
+    },
+    {
+      "bits_hex": "5000200000001000cffb",
+      "sample_end": 112320,
+      "sample_start": 110400,
+      "seconds_end": 2.34,
+      "seconds_start": 2.3,
+      "timecode": "01:00:02:05"
+    },
+    {
+      "bits_hex": "6000200000001000cffb",
+      "sample_end": 114240,
+      "sample_start": 112320,
+      "seconds_end": 2.38,
+      "seconds_start": 2.34,
+      "timecode": "01:00:02:06"
+    },
+    {
+      "bits_hex": "7000200000001000cffb",
+      "sample_end": 116160,
+      "sample_start": 114240,
+      "seconds_end": 2.42,
+      "seconds_start": 2.38,
+      "timecode": "01:00:02:07"
+    },
+    {
+      "bits_hex": "8000200000001000cffb",
+      "sample_end": 118080,
+      "sample_start": 116160,
+      "seconds_end": 2.46,
+      "seconds_start": 2.42,
+      "timecode": "01:00:02:08"
+    },
+    {
+      "bits_hex": "9000200000001000cffb",
+      "sample_end": 120000,
+      "sample_start": 118080,
+      "seconds_end": 2.5,
+      "seconds_start": 2.46,
+      "timecode": "01:00:02:09"
+    },
+    {
+      "bits_hex": "0010200000001000cffb",
+      "sample_end": 121920,
+      "sample_start": 120000,
+      "seconds_end": 2.54,
+      "seconds_start": 2.5,
+      "timecode": "01:00:02:10"
+    },
+    {
+      "bits_hex": "1010200000001000cffb",
+      "sample_end": 123840,
+      "sample_start": 121920,
+      "seconds_end": 2.58,
+      "seconds_start": 2.54,
+      "timecode": "01:00:02:11"
+    },
+    {
+      "bits_hex": "2010200000001000cffb",
+      "sample_end": 125760,
+      "sample_start": 123840,
+      "seconds_end": 2.62,
+      "seconds_start": 2.58,
+      "timecode": "01:00:02:12"
+    },
+    {
+      "bits_hex": "3010200000001000cffb",
+      "sample_end": 127680,
+      "sample_start": 125760,
+      "seconds_end": 2.66,
+      "seconds_start": 2.62,
+      "timecode": "01:00:02:13"
+    },
+    {
+      "bits_hex": "4010200000001000cffb",
+      "sample_end": 129600,
+      "sample_start": 127680,
+      "seconds_end": 2.7,
+      "seconds_start": 2.66,
+      "timecode": "01:00:02:14"
+    },
+    {
+      "bits_hex": "5010200000001000cffb",
+      "sample_end": 131520,
+      "sample_start": 129600,
+      "seconds_end": 2.74,
+      "seconds_start": 2.7,
+      "timecode": "01:00:02:15"
+    },
+    {
+      "bits_hex": "6010200000001000cffb",
+      "sample_end": 133440,
+      "sample_start": 131520,
+      "seconds_end": 2.78,
+      "seconds_start": 2.74,
+      "timecode": "01:00:02:16"
+    },
+    {
+      "bits_hex": "7010200000001000cffb",
+      "sample_end": 135360,
+      "sample_start": 133440,
+      "seconds_end": 2.82,
+      "seconds_start": 2.78,
+      "timecode": "01:00:02:17"
+    },
+    {
+      "bits_hex": "8010200000001000cffb",
+      "sample_end": 137280,
+      "sample_start": 135360,
+      "seconds_end": 2.86,
+      "seconds_start": 2.82,
+      "timecode": "01:00:02:18"
+    },
+    {
+      "bits_hex": "9010200000001000cffb",
+      "sample_end": 139200,
+      "sample_start": 137280,
+      "seconds_end": 2.9,
+      "seconds_start": 2.86,
+      "timecode": "01:00:02:19"
+    },
+    {
+      "bits_hex": "0020200000001000cffb",
+      "sample_end": 141120,
+      "sample_start": 139200,
+      "seconds_end": 2.94,
+      "seconds_start": 2.9,
+      "timecode": "01:00:02:20"
+    },
+    {
+      "bits_hex": "1020200000001000cffb",
+      "sample_end": 143040,
+      "sample_start": 141120,
+      "seconds_end": 2.98,
+      "seconds_start": 2.94,
+      "timecode": "01:00:02:21"
+    },
+    {
+      "bits_hex": "2020200000001000cffb",
+      "sample_end": 144960,
+      "sample_start": 143040,
+      "seconds_end": 3.02,
+      "seconds_start": 2.98,
+      "timecode": "01:00:02:22"
+    },
+    {
+      "bits_hex": "3020200000001000cffb",
+      "sample_end": 146880,
+      "sample_start": 144960,
+      "seconds_end": 3.06,
+      "seconds_start": 3.02,
+      "timecode": "01:00:02:23"
+    },
+    {
+      "bits_hex": "4020200000001000cffb",
+      "sample_end": 148800,
+      "sample_start": 146880,
+      "seconds_end": 3.1,
+      "seconds_start": 3.06,
+      "timecode": "01:00:02:24"
+    },
+    {
+      "bits_hex": "0000300000001000cffb",
+      "sample_end": 150720,
+      "sample_start": 148800,
+      "seconds_end": 3.14,
+      "seconds_start": 3.1,
+      "timecode": "01:00:03:00"
+    },
+    {
+      "bits_hex": "1000300000001000cffb",
+      "sample_end": 152640,
+      "sample_start": 150720,
+      "seconds_end": 3.18,
+      "seconds_start": 3.14,
+      "timecode": "01:00:03:01"
+    },
+    {
+      "bits_hex": "2000300000001000cffb",
+      "sample_end": 154560,
+      "sample_start": 152640,
+      "seconds_end": 3.22,
+      "seconds_start": 3.18,
+      "timecode": "01:00:03:02"
+    },
+    {
+      "bits_hex": "3000300000001000cffb",
+      "sample_end": 156480,
+      "sample_start": 154560,
+      "seconds_end": 3.26,
+      "seconds_start": 3.22,
+      "timecode": "01:00:03:03"
+    },
+    {
+      "bits_hex": "4000300000001000cffb",
+      "sample_end": 158400,
+      "sample_start": 156480,
+      "seconds_end": 3.3,
+      "seconds_start": 3.26,
+      "timecode": "01:00:03:04"
+    },
+    {
+      "bits_hex": "5000300000001000cffb",
+      "sample_end": 160320,
+      "sample_start": 158400,
+      "seconds_end": 3.34,
+      "seconds_start": 3.3,
+      "timecode": "01:00:03:05"
+    },
+    {
+      "bits_hex": "6000300000001000cffb",
+      "sample_end": 162240,
+      "sample_start": 160320,
+      "seconds_end": 3.38,
+      "seconds_start": 3.34,
+      "timecode": "01:00:03:06"
+    },
+    {
+      "bits_hex": "7000300000001000cffb",
+      "sample_end": 164160,
+      "sample_start": 162240,
+      "seconds_end": 3.42,
+      "seconds_start": 3.38,
+      "timecode": "01:00:03:07"
+    },
+    {
+      "bits_hex": "8000300000001000cffb",
+      "sample_end": 166080,
+      "sample_start": 164160,
+      "seconds_end": 3.46,
+      "seconds_start": 3.42,
+      "timecode": "01:00:03:08"
+    },
+    {
+      "bits_hex": "9000300000001000cffb",
+      "sample_end": 168000,
+      "sample_start": 166080,
+      "seconds_end": 3.5,
+      "seconds_start": 3.46,
+      "timecode": "01:00:03:09"
+    },
+    {
+      "bits_hex": "0010300000001000cffb",
+      "sample_end": 169920,
+      "sample_start": 168000,
+      "seconds_end": 3.54,
+      "seconds_start": 3.5,
+      "timecode": "01:00:03:10"
+    },
+    {
+      "bits_hex": "1010300000001000cffb",
+      "sample_end": 171840,
+      "sample_start": 169920,
+      "seconds_end": 3.58,
+      "seconds_start": 3.54,
+      "timecode": "01:00:03:11"
+    },
+    {
+      "bits_hex": "2010300000001000cffb",
+      "sample_end": 173760,
+      "sample_start": 171840,
+      "seconds_end": 3.62,
+      "seconds_start": 3.58,
+      "timecode": "01:00:03:12"
+    },
+    {
+      "bits_hex": "3010300000001000cffb",
+      "sample_end": 175680,
+      "sample_start": 173760,
+      "seconds_end": 3.66,
+      "seconds_start": 3.62,
+      "timecode": "01:00:03:13"
+    },
+    {
+      "bits_hex": "4010300000001000cffb",
+      "sample_end": 177600,
+      "sample_start": 175680,
+      "seconds_end": 3.7,
+      "seconds_start": 3.66,
+      "timecode": "01:00:03:14"
+    },
+    {
+      "bits_hex": "5010300000001000cffb",
+      "sample_end": 179520,
+      "sample_start": 177600,
+      "seconds_end": 3.74,
+      "seconds_start": 3.7,
+      "timecode": "01:00:03:15"
+    },
+    {
+      "bits_hex": "6010300000001000cffb",
+      "sample_end": 181440,
+      "sample_start": 179520,
+      "seconds_end": 3.78,
+      "seconds_start": 3.74,
+      "timecode": "01:00:03:16"
+    },
+    {
+      "bits_hex": "7010300000001000cffb",
+      "sample_end": 183360,
+      "sample_start": 181440,
+      "seconds_end": 3.82,
+      "seconds_start": 3.78,
+      "timecode": "01:00:03:17"
+    },
+    {
+      "bits_hex": "8010300000001000cffb",
+      "sample_end": 185280,
+      "sample_start": 183360,
+      "seconds_end": 3.86,
+      "seconds_start": 3.82,
+      "timecode": "01:00:03:18"
+    },
+    {
+      "bits_hex": "9010300000001000cffb",
+      "sample_end": 187200,
+      "sample_start": 185280,
+      "seconds_end": 3.9,
+      "seconds_start": 3.86,
+      "timecode": "01:00:03:19"
+    },
+    {
+      "bits_hex": "0020300000001000cffb",
+      "sample_end": 189120,
+      "sample_start": 187200,
+      "seconds_end": 3.94,
+      "seconds_start": 3.9,
+      "timecode": "01:00:03:20"
+    },
+    {
+      "bits_hex": "1020300000001000cffb",
+      "sample_end": 191040,
+      "sample_start": 189120,
+      "seconds_end": 3.98,
+      "seconds_start": 3.94,
+      "timecode": "01:00:03:21"
+    },
+    {
+      "bits_hex": "2020300000001000cffb",
+      "sample_end": 192960,
+      "sample_start": 191040,
+      "seconds_end": 4.02,
+      "seconds_start": 3.98,
+      "timecode": "01:00:03:22"
+    },
+    {
+      "bits_hex": "3020300000001000cffb",
+      "sample_end": 194880,
+      "sample_start": 192960,
+      "seconds_end": 4.06,
+      "seconds_start": 4.02,
+      "timecode": "01:00:03:23"
+    },
+    {
+      "bits_hex": "4020300000001000cffb",
+      "sample_end": 196800,
+      "sample_start": 194880,
+      "seconds_end": 4.1,
+      "seconds_start": 4.06,
+      "timecode": "01:00:03:24"
+    },
+    {
+      "bits_hex": "0000400000001000cffb",
+      "sample_end": 198720,
+      "sample_start": 196800,
+      "seconds_end": 4.14,
+      "seconds_start": 4.1,
+      "timecode": "01:00:04:00"
+    },
+    {
+      "bits_hex": "1000400000001000cffb",
+      "sample_end": 200640,
+      "sample_start": 198720,
+      "seconds_end": 4.18,
+      "seconds_start": 4.14,
+      "timecode": "01:00:04:01"
+    },
+    {
+      "bits_hex": "2000400000001000cffb",
+      "sample_end": 202560,
+      "sample_start": 200640,
+      "seconds_end": 4.22,
+      "seconds_start": 4.18,
+      "timecode": "01:00:04:02"
+    },
+    {
+      "bits_hex": "3000400000001000cffb",
+      "sample_end": 204480,
+      "sample_start": 202560,
+      "seconds_end": 4.26,
+      "seconds_start": 4.22,
+      "timecode": "01:00:04:03"
+    },
+    {
+      "bits_hex": "4000400000001000cffb",
+      "sample_end": 206400,
+      "sample_start": 204480,
+      "seconds_end": 4.3,
+      "seconds_start": 4.26,
+      "timecode": "01:00:04:04"
+    },
+    {
+      "bits_hex": "5000400000001000cffb",
+      "sample_end": 208320,
+      "sample_start": 206400,
+      "seconds_end": 4.34,
+      "seconds_start": 4.3,
+      "timecode": "01:00:04:05"
+    },
+    {
+      "bits_hex": "6000400000001000cffb",
+      "sample_end": 210240,
+      "sample_start": 208320,
+      "seconds_end": 4.38,
+      "seconds_start": 4.34,
+      "timecode": "01:00:04:06"
+    },
+    {
+      "bits_hex": "7000400000001000cffb",
+      "sample_end": 212160,
+      "sample_start": 210240,
+      "seconds_end": 4.42,
+      "seconds_start": 4.38,
+      "timecode": "01:00:04:07"
+    },
+    {
+      "bits_hex": "8000400000001000cffb",
+      "sample_end": 214080,
+      "sample_start": 212160,
+      "seconds_end": 4.46,
+      "seconds_start": 4.42,
+      "timecode": "01:00:04:08"
+    },
+    {
+      "bits_hex": "9000400000001000cffb",
+      "sample_end": 216000,
+      "sample_start": 214080,
+      "seconds_end": 4.5,
+      "seconds_start": 4.46,
+      "timecode": "01:00:04:09"
+    },
+    {
+      "bits_hex": "0010400000001000cffb",
+      "sample_end": 217920,
+      "sample_start": 216000,
+      "seconds_end": 4.54,
+      "seconds_start": 4.5,
+      "timecode": "01:00:04:10"
+    },
+    {
+      "bits_hex": "1010400000001000cffb",
+      "sample_end": 219840,
+      "sample_start": 217920,
+      "seconds_end": 4.58,
+      "seconds_start": 4.54,
+      "timecode": "01:00:04:11"
+    },
+    {
+      "bits_hex": "2010400000001000cffb",
+      "sample_end": 221760,
+      "sample_start": 219840,
+      "seconds_end": 4.62,
+      "seconds_start": 4.58,
+      "timecode": "01:00:04:12"
+    },
+    {
+      "bits_hex": "3010400000001000cffb",
+      "sample_end": 223680,
+      "sample_start": 221760,
+      "seconds_end": 4.66,
+      "seconds_start": 4.62,
+      "timecode": "01:00:04:13"
+    },
+    {
+      "bits_hex": "4010400000001000cffb",
+      "sample_end": 225600,
+      "sample_start": 223680,
+      "seconds_end": 4.7,
+      "seconds_start": 4.66,
+      "timecode": "01:00:04:14"
+    },
+    {
+      "bits_hex": "5010400000001000cffb",
+      "sample_end": 227520,
+      "sample_start": 225600,
+      "seconds_end": 4.74,
+      "seconds_start": 4.7,
+      "timecode": "01:00:04:15"
+    },
+    {
+      "bits_hex": "6010400000001000cffb",
+      "sample_end": 229440,
+      "sample_start": 227520,
+      "seconds_end": 4.78,
+      "seconds_start": 4.74,
+      "timecode": "01:00:04:16"
+    },
+    {
+      "bits_hex": "7010400000001000cffb",
+      "sample_end": 231360,
+      "sample_start": 229440,
+      "seconds_end": 4.82,
+      "seconds_start": 4.78,
+      "timecode": "01:00:04:17"
+    },
+    {
+      "bits_hex": "8010400000001000cffb",
+      "sample_end": 233280,
+      "sample_start": 231360,
+      "seconds_end": 4.86,
+      "seconds_start": 4.82,
+      "timecode": "01:00:04:18"
+    },
+    {
+      "bits_hex": "9010400000001000cffb",
+      "sample_end": 235200,
+      "sample_start": 233280,
+      "seconds_end": 4.9,
+      "seconds_start": 4.86,
+      "timecode": "01:00:04:19"
+    },
+    {
+      "bits_hex": "0020400000001000cffb",
+      "sample_end": 237120,
+      "sample_start": 235200,
+      "seconds_end": 4.94,
+      "seconds_start": 4.9,
+      "timecode": "01:00:04:20"
+    },
+    {
+      "bits_hex": "1020400000001000cffb",
+      "sample_end": 239040,
+      "sample_start": 237120,
+      "seconds_end": 4.98,
+      "seconds_start": 4.94,
+      "timecode": "01:00:04:21"
+    },
+    {
+      "bits_hex": "2020400000001000cffb",
+      "sample_end": 240960,
+      "sample_start": 239040,
+      "seconds_end": 5.02,
+      "seconds_start": 4.98,
+      "timecode": "01:00:04:22"
+    },
+    {
+      "bits_hex": "3020400000001000cffb",
+      "sample_end": 242880,
+      "sample_start": 240960,
+      "seconds_end": 5.06,
+      "seconds_start": 5.02,
+      "timecode": "01:00:04:23"
+    },
+    {
+      "bits_hex": "4020400000001000cffb",
+      "sample_end": 244800,
+      "sample_start": 242880,
+      "seconds_end": 5.1,
+      "seconds_start": 5.06,
+      "timecode": "01:00:04:24"
+    },
+    {
+      "bits_hex": "0000500000001000cffb",
+      "sample_end": 246720,
+      "sample_start": 244800,
+      "seconds_end": 5.14,
+      "seconds_start": 5.1,
+      "timecode": "01:00:05:00"
+    },
+    {
+      "bits_hex": "1000500000001000cffb",
+      "sample_end": 248640,
+      "sample_start": 246720,
+      "seconds_end": 5.18,
+      "seconds_start": 5.14,
+      "timecode": "01:00:05:01"
+    },
+    {
+      "bits_hex": "2000500000001000cffb",
+      "sample_end": 250560,
+      "sample_start": 248640,
+      "seconds_end": 5.22,
+      "seconds_start": 5.18,
+      "timecode": "01:00:05:02"
+    },
+    {
+      "bits_hex": "3000500000001000cffb",
+      "sample_end": 252480,
+      "sample_start": 250560,
+      "seconds_end": 5.26,
+      "seconds_start": 5.22,
+      "timecode": "01:00:05:03"
+    },
+    {
+      "bits_hex": "4000500000001000cffb",
+      "sample_end": 254400,
+      "sample_start": 252480,
+      "seconds_end": 5.3,
+      "seconds_start": 5.26,
+      "timecode": "01:00:05:04"
+    },
+    {
+      "bits_hex": "5000500000001000cffb",
+      "sample_end": 256320,
+      "sample_start": 254400,
+      "seconds_end": 5.34,
+      "seconds_start": 5.3,
+      "timecode": "01:00:05:05"
+    },
+    {
+      "bits_hex": "6000500000001000cffb",
+      "sample_end": 258240,
+      "sample_start": 256320,
+      "seconds_end": 5.38,
+      "seconds_start": 5.34,
+      "timecode": "01:00:05:06"
+    },
+    {
+      "bits_hex": "7000500000001000cffb",
+      "sample_end": 260160,
+      "sample_start": 258240,
+      "seconds_end": 5.42,
+      "seconds_start": 5.38,
+      "timecode": "01:00:05:07"
+    },
+    {
+      "bits_hex": "8000500000001000cffb",
+      "sample_end": 262080,
+      "sample_start": 260160,
+      "seconds_end": 5.46,
+      "seconds_start": 5.42,
+      "timecode": "01:00:05:08"
+    },
+    {
+      "bits_hex": "9000500000001000cffb",
+      "sample_end": 264000,
+      "sample_start": 262080,
+      "seconds_end": 5.5,
+      "seconds_start": 5.46,
+      "timecode": "01:00:05:09"
+    },
+    {
+      "bits_hex": "0010500000001000cffb",
+      "sample_end": 265920,
+      "sample_start": 264000,
+      "seconds_end": 5.54,
+      "seconds_start": 5.5,
+      "timecode": "01:00:05:10"
+    },
+    {
+      "bits_hex": "1010500000001000cffb",
+      "sample_end": 267840,
+      "sample_start": 265920,
+      "seconds_end": 5.58,
+      "seconds_start": 5.54,
+      "timecode": "01:00:05:11"
+    },
+    {
+      "bits_hex": "2010500000001000cffb",
+      "sample_end": 269760,
+      "sample_start": 267840,
+      "seconds_end": 5.62,
+      "seconds_start": 5.58,
+      "timecode": "01:00:05:12"
+    },
+    {
+      "bits_hex": "3010500000001000cffb",
+      "sample_end": 271680,
+      "sample_start": 269760,
+      "seconds_end": 5.66,
+      "seconds_start": 5.62,
+      "timecode": "01:00:05:13"
+    },
+    {
+      "bits_hex": "4010500000001000cffb",
+      "sample_end": 273600,
+      "sample_start": 271680,
+      "seconds_end": 5.7,
+      "seconds_start": 5.66,
+      "timecode": "01:00:05:14"
+    },
+    {
+      "bits_hex": "5010500000001000cffb",
+      "sample_end": 275520,
+      "sample_start": 273600,
+      "seconds_end": 5.74,
+      "seconds_start": 5.7,
+      "timecode": "01:00:05:15"
+    },
+    {
+      "bits_hex": "6010500000001000cffb",
+      "sample_end": 277440,
+      "sample_start": 275520,
+      "seconds_end": 5.78,
+      "seconds_start": 5.74,
+      "timecode": "01:00:05:16"
+    },
+    {
+      "bits_hex": "7010500000001000cffb",
+      "sample_end": 279360,
+      "sample_start": 277440,
+      "seconds_end": 5.82,
+      "seconds_start": 5.78,
+      "timecode": "01:00:05:17"
+    },
+    {
+      "bits_hex": "8010500000001000cffb",
+      "sample_end": 281280,
+      "sample_start": 279360,
+      "seconds_end": 5.86,
+      "seconds_start": 5.82,
+      "timecode": "01:00:05:18"
+    },
+    {
+      "bits_hex": "9010500000001000cffb",
+      "sample_end": 283200,
+      "sample_start": 281280,
+      "seconds_end": 5.9,
+      "seconds_start": 5.86,
+      "timecode": "01:00:05:19"
+    },
+    {
+      "bits_hex": "0020500000001000cffb",
+      "sample_end": 285120,
+      "sample_start": 283200,
+      "seconds_end": 5.94,
+      "seconds_start": 5.9,
+      "timecode": "01:00:05:20"
+    },
+    {
+      "bits_hex": "1020500000001000cffb",
+      "sample_end": 287040,
+      "sample_start": 285120,
+      "seconds_end": 5.98,
+      "seconds_start": 5.94,
+      "timecode": "01:00:05:21"
+    },
+    {
+      "bits_hex": "2020500000001000cffb",
+      "sample_end": 288960,
+      "sample_start": 287040,
+      "seconds_end": 6.02,
+      "seconds_start": 5.98,
+      "timecode": "01:00:05:22"
+    },
+    {
+      "bits_hex": "3020500000001000cffb",
+      "sample_end": 290880,
+      "sample_start": 288960,
+      "seconds_end": 6.06,
+      "seconds_start": 6.02,
+      "timecode": "01:00:05:23"
+    },
+    {
+      "bits_hex": "4020500000001000cffb",
+      "sample_end": 292800,
+      "sample_start": 290880,
+      "seconds_end": 6.1,
+      "seconds_start": 6.06,
+      "timecode": "01:00:05:24"
+    },
+    {
+      "bits_hex": "0000600000001000cffb",
+      "sample_end": 294720,
+      "sample_start": 292800,
+      "seconds_end": 6.14,
+      "seconds_start": 6.1,
+      "timecode": "01:00:06:00"
+    },
+    {
+      "bits_hex": "1000600000001000cffb",
+      "sample_end": 296640,
+      "sample_start": 294720,
+      "seconds_end": 6.18,
+      "seconds_start": 6.14,
+      "timecode": "01:00:06:01"
+    },
+    {
+      "bits_hex": "2000600000001000cffb",
+      "sample_end": 298560,
+      "sample_start": 296640,
+      "seconds_end": 6.22,
+      "seconds_start": 6.18,
+      "timecode": "01:00:06:02"
+    },
+    {
+      "bits_hex": "3000600000001000cffb",
+      "sample_end": 300480,
+      "sample_start": 298560,
+      "seconds_end": 6.26,
+      "seconds_start": 6.22,
+      "timecode": "01:00:06:03"
+    },
+    {
+      "bits_hex": "4000600000001000cffb",
+      "sample_end": 302400,
+      "sample_start": 300480,
+      "seconds_end": 6.3,
+      "seconds_start": 6.26,
+      "timecode": "01:00:06:04"
+    },
+    {
+      "bits_hex": "5000600000001000cffb",
+      "sample_end": 304320,
+      "sample_start": 302400,
+      "seconds_end": 6.34,
+      "seconds_start": 6.3,
+      "timecode": "01:00:06:05"
+    },
+    {
+      "bits_hex": "6000600000001000cffb",
+      "sample_end": 306240,
+      "sample_start": 304320,
+      "seconds_end": 6.38,
+      "seconds_start": 6.34,
+      "timecode": "01:00:06:06"
+    },
+    {
+      "bits_hex": "7000600000001000cffb",
+      "sample_end": 308160,
+      "sample_start": 306240,
+      "seconds_end": 6.42,
+      "seconds_start": 6.38,
+      "timecode": "01:00:06:07"
+    },
+    {
+      "bits_hex": "8000600000001000cffb",
+      "sample_end": 310080,
+      "sample_start": 308160,
+      "seconds_end": 6.46,
+      "seconds_start": 6.42,
+      "timecode": "01:00:06:08"
+    },
+    {
+      "bits_hex": "9000600000001000cffb",
+      "sample_end": 312000,
+      "sample_start": 310080,
+      "seconds_end": 6.5,
+      "seconds_start": 6.46,
+      "timecode": "01:00:06:09"
+    },
+    {
+      "bits_hex": "0010600000001000cffb",
+      "sample_end": 313920,
+      "sample_start": 312000,
+      "seconds_end": 6.54,
+      "seconds_start": 6.5,
+      "timecode": "01:00:06:10"
+    },
+    {
+      "bits_hex": "1010600000001000cffb",
+      "sample_end": 315840,
+      "sample_start": 313920,
+      "seconds_end": 6.58,
+      "seconds_start": 6.54,
+      "timecode": "01:00:06:11"
+    },
+    {
+      "bits_hex": "2010600000001000cffb",
+      "sample_end": 317760,
+      "sample_start": 315840,
+      "seconds_end": 6.62,
+      "seconds_start": 6.58,
+      "timecode": "01:00:06:12"
+    },
+    {
+      "bits_hex": "3010600000001000cffb",
+      "sample_end": 319680,
+      "sample_start": 317760,
+      "seconds_end": 6.66,
+      "seconds_start": 6.62,
+      "timecode": "01:00:06:13"
+    },
+    {
+      "bits_hex": "4010600000001000cffb",
+      "sample_end": 321600,
+      "sample_start": 319680,
+      "seconds_end": 6.7,
+      "seconds_start": 6.66,
+      "timecode": "01:00:06:14"
+    },
+    {
+      "bits_hex": "5010600000001000cffb",
+      "sample_end": 323520,
+      "sample_start": 321600,
+      "seconds_end": 6.74,
+      "seconds_start": 6.7,
+      "timecode": "01:00:06:15"
+    },
+    {
+      "bits_hex": "6010600000001000cffb",
+      "sample_end": 325440,
+      "sample_start": 323520,
+      "seconds_end": 6.78,
+      "seconds_start": 6.74,
+      "timecode": "01:00:06:16"
+    },
+    {
+      "bits_hex": "7010600000001000cffb",
+      "sample_end": 327360,
+      "sample_start": 325440,
+      "seconds_end": 6.82,
+      "seconds_start": 6.78,
+      "timecode": "01:00:06:17"
+    },
+    {
+      "bits_hex": "8010600000001000cffb",
+      "sample_end": 329280,
+      "sample_start": 327360,
+      "seconds_end": 6.86,
+      "seconds_start": 6.82,
+      "timecode": "01:00:06:18"
+    },
+    {
+      "bits_hex": "9010600000001000cffb",
+      "sample_end": 331200,
+      "sample_start": 329280,
+      "seconds_end": 6.9,
+      "seconds_start": 6.86,
+      "timecode": "01:00:06:19"
+    },
+    {
+      "bits_hex": "0020600000001000cffb",
+      "sample_end": 333120,
+      "sample_start": 331200,
+      "seconds_end": 6.94,
+      "seconds_start": 6.9,
+      "timecode": "01:00:06:20"
+    },
+    {
+      "bits_hex": "1020600000001000cffb",
+      "sample_end": 335040,
+      "sample_start": 333120,
+      "seconds_end": 6.98,
+      "seconds_start": 6.94,
+      "timecode": "01:00:06:21"
+    },
+    {
+      "bits_hex": "2020600000001000cffb",
+      "sample_end": 336960,
+      "sample_start": 335040,
+      "seconds_end": 7.02,
+      "seconds_start": 6.98,
+      "timecode": "01:00:06:22"
+    },
+    {
+      "bits_hex": "3020600000001000cffb",
+      "sample_end": 338880,
+      "sample_start": 336960,
+      "seconds_end": 7.06,
+      "seconds_start": 7.02,
+      "timecode": "01:00:06:23"
+    },
+    {
+      "bits_hex": "4020600000001000cffb",
+      "sample_end": 340800,
+      "sample_start": 338880,
+      "seconds_end": 7.1,
+      "seconds_start": 7.06,
+      "timecode": "01:00:06:24"
+    },
+    {
+      "bits_hex": "0000700000001000cffb",
+      "sample_end": 342720,
+      "sample_start": 340800,
+      "seconds_end": 7.14,
+      "seconds_start": 7.1,
+      "timecode": "01:00:07:00"
+    },
+    {
+      "bits_hex": "1000700000001000cffb",
+      "sample_end": 344640,
+      "sample_start": 342720,
+      "seconds_end": 7.18,
+      "seconds_start": 7.14,
+      "timecode": "01:00:07:01"
+    },
+    {
+      "bits_hex": "2000700000001000cffb",
+      "sample_end": 346560,
+      "sample_start": 344640,
+      "seconds_end": 7.22,
+      "seconds_start": 7.18,
+      "timecode": "01:00:07:02"
+    },
+    {
+      "bits_hex": "3000700000001000cffb",
+      "sample_end": 348480,
+      "sample_start": 346560,
+      "seconds_end": 7.26,
+      "seconds_start": 7.22,
+      "timecode": "01:00:07:03"
+    },
+    {
+      "bits_hex": "4000700000001000cffb",
+      "sample_end": 350400,
+      "sample_start": 348480,
+      "seconds_end": 7.3,
+      "seconds_start": 7.26,
+      "timecode": "01:00:07:04"
+    },
+    {
+      "bits_hex": "5000700000001000cffb",
+      "sample_end": 352320,
+      "sample_start": 350400,
+      "seconds_end": 7.34,
+      "seconds_start": 7.3,
+      "timecode": "01:00:07:05"
+    },
+    {
+      "bits_hex": "6000700000001000cffb",
+      "sample_end": 354240,
+      "sample_start": 352320,
+      "seconds_end": 7.38,
+      "seconds_start": 7.34,
+      "timecode": "01:00:07:06"
+    },
+    {
+      "bits_hex": "7000700000001000cffb",
+      "sample_end": 356160,
+      "sample_start": 354240,
+      "seconds_end": 7.42,
+      "seconds_start": 7.38,
+      "timecode": "01:00:07:07"
+    },
+    {
+      "bits_hex": "8000700000001000cffb",
+      "sample_end": 358080,
+      "sample_start": 356160,
+      "seconds_end": 7.46,
+      "seconds_start": 7.42,
+      "timecode": "01:00:07:08"
+    },
+    {
+      "bits_hex": "9000700000001000cffb",
+      "sample_end": 360000,
+      "sample_start": 358080,
+      "seconds_end": 7.5,
+      "seconds_start": 7.46,
+      "timecode": "01:00:07:09"
+    },
+    {
+      "bits_hex": "0010700000001000cffb",
+      "sample_end": 361920,
+      "sample_start": 360000,
+      "seconds_end": 7.54,
+      "seconds_start": 7.5,
+      "timecode": "01:00:07:10"
+    },
+    {
+      "bits_hex": "1010700000001000cffb",
+      "sample_end": 363840,
+      "sample_start": 361920,
+      "seconds_end": 7.58,
+      "seconds_start": 7.54,
+      "timecode": "01:00:07:11"
+    },
+    {
+      "bits_hex": "2010700000001000cffb",
+      "sample_end": 365760,
+      "sample_start": 363840,
+      "seconds_end": 7.62,
+      "seconds_start": 7.58,
+      "timecode": "01:00:07:12"
+    },
+    {
+      "bits_hex": "3010700000001000cffb",
+      "sample_end": 367680,
+      "sample_start": 365760,
+      "seconds_end": 7.66,
+      "seconds_start": 7.62,
+      "timecode": "01:00:07:13"
+    },
+    {
+      "bits_hex": "4010700000001000cffb",
+      "sample_end": 369600,
+      "sample_start": 367680,
+      "seconds_end": 7.7,
+      "seconds_start": 7.66,
+      "timecode": "01:00:07:14"
+    },
+    {
+      "bits_hex": "5010700000001000cffb",
+      "sample_end": 371520,
+      "sample_start": 369600,
+      "seconds_end": 7.74,
+      "seconds_start": 7.7,
+      "timecode": "01:00:07:15"
+    },
+    {
+      "bits_hex": "6010700000001000cffb",
+      "sample_end": 373440,
+      "sample_start": 371520,
+      "seconds_end": 7.78,
+      "seconds_start": 7.74,
+      "timecode": "01:00:07:16"
+    },
+    {
+      "bits_hex": "7010700000001000cffb",
+      "sample_end": 375360,
+      "sample_start": 373440,
+      "seconds_end": 7.82,
+      "seconds_start": 7.78,
+      "timecode": "01:00:07:17"
+    },
+    {
+      "bits_hex": "8010700000001000cffb",
+      "sample_end": 377280,
+      "sample_start": 375360,
+      "seconds_end": 7.86,
+      "seconds_start": 7.82,
+      "timecode": "01:00:07:18"
+    },
+    {
+      "bits_hex": "9010700000001000cffb",
+      "sample_end": 379200,
+      "sample_start": 377280,
+      "seconds_end": 7.9,
+      "seconds_start": 7.86,
+      "timecode": "01:00:07:19"
+    },
+    {
+      "bits_hex": "0020700000001000cffb",
+      "sample_end": 381120,
+      "sample_start": 379200,
+      "seconds_end": 7.94,
+      "seconds_start": 7.9,
+      "timecode": "01:00:07:20"
+    },
+    {
+      "bits_hex": "1020700000001000cffb",
+      "sample_end": 383040,
+      "sample_start": 381120,
+      "seconds_end": 7.98,
+      "seconds_start": 7.94,
+      "timecode": "01:00:07:21"
+    },
+    {
+      "bits_hex": "2020700000001000cffb",
+      "sample_end": 384960,
+      "sample_start": 383040,
+      "seconds_end": 8.02,
+      "seconds_start": 7.98,
+      "timecode": "01:00:07:22"
+    },
+    {
+      "bits_hex": "3020700000001000cffb",
+      "sample_end": 386880,
+      "sample_start": 384960,
+      "seconds_end": 8.06,
+      "seconds_start": 8.02,
+      "timecode": "01:00:07:23"
+    },
+    {
+      "bits_hex": "4020700000001000cffb",
+      "sample_end": 388800,
+      "sample_start": 386880,
+      "seconds_end": 8.1,
+      "seconds_start": 8.06,
+      "timecode": "01:00:07:24"
+    },
+    {
+      "bits_hex": "0000800000001000cffb",
+      "sample_end": 390720,
+      "sample_start": 388800,
+      "seconds_end": 8.14,
+      "seconds_start": 8.1,
+      "timecode": "01:00:08:00"
+    },
+    {
+      "bits_hex": "1000800000001000cffb",
+      "sample_end": 392640,
+      "sample_start": 390720,
+      "seconds_end": 8.18,
+      "seconds_start": 8.14,
+      "timecode": "01:00:08:01"
+    },
+    {
+      "bits_hex": "2000800000001000cffb",
+      "sample_end": 394560,
+      "sample_start": 392640,
+      "seconds_end": 8.22,
+      "seconds_start": 8.18,
+      "timecode": "01:00:08:02"
+    },
+    {
+      "bits_hex": "3000800000001000cffb",
+      "sample_end": 396480,
+      "sample_start": 394560,
+      "seconds_end": 8.26,
+      "seconds_start": 8.22,
+      "timecode": "01:00:08:03"
+    },
+    {
+      "bits_hex": "4000800000001000cffb",
+      "sample_end": 398400,
+      "sample_start": 396480,
+      "seconds_end": 8.3,
+      "seconds_start": 8.26,
+      "timecode": "01:00:08:04"
+    },
+    {
+      "bits_hex": "5000800000001000cffb",
+      "sample_end": 400320,
+      "sample_start": 398400,
+      "seconds_end": 8.34,
+      "seconds_start": 8.3,
+      "timecode": "01:00:08:05"
+    },
+    {
+      "bits_hex": "6000800000001000cffb",
+      "sample_end": 402240,
+      "sample_start": 400320,
+      "seconds_end": 8.38,
+      "seconds_start": 8.34,
+      "timecode": "01:00:08:06"
+    },
+    {
+      "bits_hex": "7000800000001000cffb",
+      "sample_end": 404160,
+      "sample_start": 402240,
+      "seconds_end": 8.42,
+      "seconds_start": 8.38,
+      "timecode": "01:00:08:07"
+    },
+    {
+      "bits_hex": "8000800000001000cffb",
+      "sample_end": 406080,
+      "sample_start": 404160,
+      "seconds_end": 8.46,
+      "seconds_start": 8.42,
+      "timecode": "01:00:08:08"
+    },
+    {
+      "bits_hex": "9000800000001000cffb",
+      "sample_end": 408000,
+      "sample_start": 406080,
+      "seconds_end": 8.5,
+      "seconds_start": 8.46,
+      "timecode": "01:00:08:09"
+    },
+    {
+      "bits_hex": "0010800000001000cffb",
+      "sample_end": 409920,
+      "sample_start": 408000,
+      "seconds_end": 8.54,
+      "seconds_start": 8.5,
+      "timecode": "01:00:08:10"
+    },
+    {
+      "bits_hex": "1010800000001000cffb",
+      "sample_end": 411840,
+      "sample_start": 409920,
+      "seconds_end": 8.58,
+      "seconds_start": 8.54,
+      "timecode": "01:00:08:11"
+    },
+    {
+      "bits_hex": "2010800000001000cffb",
+      "sample_end": 413760,
+      "sample_start": 411840,
+      "seconds_end": 8.62,
+      "seconds_start": 8.58,
+      "timecode": "01:00:08:12"
+    },
+    {
+      "bits_hex": "3010800000001000cffb",
+      "sample_end": 415680,
+      "sample_start": 413760,
+      "seconds_end": 8.66,
+      "seconds_start": 8.62,
+      "timecode": "01:00:08:13"
+    },
+    {
+      "bits_hex": "4010800000001000cffb",
+      "sample_end": 417600,
+      "sample_start": 415680,
+      "seconds_end": 8.7,
+      "seconds_start": 8.66,
+      "timecode": "01:00:08:14"
+    },
+    {
+      "bits_hex": "5010800000001000cffb",
+      "sample_end": 419520,
+      "sample_start": 417600,
+      "seconds_end": 8.74,
+      "seconds_start": 8.7,
+      "timecode": "01:00:08:15"
+    },
+    {
+      "bits_hex": "6010800000001000cffb",
+      "sample_end": 421440,
+      "sample_start": 419520,
+      "seconds_end": 8.78,
+      "seconds_start": 8.74,
+      "timecode": "01:00:08:16"
+    },
+    {
+      "bits_hex": "7010800000001000cffb",
+      "sample_end": 423360,
+      "sample_start": 421440,
+      "seconds_end": 8.82,
+      "seconds_start": 8.78,
+      "timecode": "01:00:08:17"
+    },
+    {
+      "bits_hex": "8010800000001000cffb",
+      "sample_end": 425280,
+      "sample_start": 423360,
+      "seconds_end": 8.86,
+      "seconds_start": 8.82,
+      "timecode": "01:00:08:18"
+    },
+    {
+      "bits_hex": "9010800000001000cffb",
+      "sample_end": 427200,
+      "sample_start": 425280,
+      "seconds_end": 8.9,
+      "seconds_start": 8.86,
+      "timecode": "01:00:08:19"
+    },
+    {
+      "bits_hex": "0020800000001000cffb",
+      "sample_end": 429120,
+      "sample_start": 427200,
+      "seconds_end": 8.94,
+      "seconds_start": 8.9,
+      "timecode": "01:00:08:20"
+    },
+    {
+      "bits_hex": "1020800000001000cffb",
+      "sample_end": 431040,
+      "sample_start": 429120,
+      "seconds_end": 8.98,
+      "seconds_start": 8.94,
+      "timecode": "01:00:08:21"
+    },
+    {
+      "bits_hex": "2020800000001000cffb",
+      "sample_end": 432960,
+      "sample_start": 431040,
+      "seconds_end": 9.02,
+      "seconds_start": 8.98,
+      "timecode": "01:00:08:22"
+    },
+    {
+      "bits_hex": "3020800000001000cffb",
+      "sample_end": 434880,
+      "sample_start": 432960,
+      "seconds_end": 9.06,
+      "seconds_start": 9.02,
+      "timecode": "01:00:08:23"
+    },
+    {
+      "bits_hex": "4020800000001000cffb",
+      "sample_end": 436800,
+      "sample_start": 434880,
+      "seconds_end": 9.1,
+      "seconds_start": 9.06,
+      "timecode": "01:00:08:24"
+    },
+    {
+      "bits_hex": "0000900000001000cffb",
+      "sample_end": 438720,
+      "sample_start": 436800,
+      "seconds_end": 9.14,
+      "seconds_start": 9.1,
+      "timecode": "01:00:09:00"
+    },
+    {
+      "bits_hex": "1000900000001000cffb",
+      "sample_end": 440640,
+      "sample_start": 438720,
+      "seconds_end": 9.18,
+      "seconds_start": 9.14,
+      "timecode": "01:00:09:01"
+    },
+    {
+      "bits_hex": "2000900000001000cffb",
+      "sample_end": 442560,
+      "sample_start": 440640,
+      "seconds_end": 9.22,
+      "seconds_start": 9.18,
+      "timecode": "01:00:09:02"
+    },
+    {
+      "bits_hex": "3000900000001000cffb",
+      "sample_end": 444480,
+      "sample_start": 442560,
+      "seconds_end": 9.26,
+      "seconds_start": 9.22,
+      "timecode": "01:00:09:03"
+    },
+    {
+      "bits_hex": "4000900000001000cffb",
+      "sample_end": 446400,
+      "sample_start": 444480,
+      "seconds_end": 9.3,
+      "seconds_start": 9.26,
+      "timecode": "01:00:09:04"
+    },
+    {
+      "bits_hex": "5000900000001000cffb",
+      "sample_end": 448320,
+      "sample_start": 446400,
+      "seconds_end": 9.34,
+      "seconds_start": 9.3,
+      "timecode": "01:00:09:05"
+    },
+    {
+      "bits_hex": "6000900000001000cffb",
+      "sample_end": 450240,
+      "sample_start": 448320,
+      "seconds_end": 9.38,
+      "seconds_start": 9.34,
+      "timecode": "01:00:09:06"
+    },
+    {
+      "bits_hex": "7000900000001000cffb",
+      "sample_end": 452160,
+      "sample_start": 450240,
+      "seconds_end": 9.42,
+      "seconds_start": 9.38,
+      "timecode": "01:00:09:07"
+    },
+    {
+      "bits_hex": "8000900000001000cffb",
+      "sample_end": 454080,
+      "sample_start": 452160,
+      "seconds_end": 9.46,
+      "seconds_start": 9.42,
+      "timecode": "01:00:09:08"
+    },
+    {
+      "bits_hex": "9000900000001000cffb",
+      "sample_end": 456000,
+      "sample_start": 454080,
+      "seconds_end": 9.5,
+      "seconds_start": 9.46,
+      "timecode": "01:00:09:09"
+    },
+    {
+      "bits_hex": "0010900000001000cffb",
+      "sample_end": 457920,
+      "sample_start": 456000,
+      "seconds_end": 9.54,
+      "seconds_start": 9.5,
+      "timecode": "01:00:09:10"
+    },
+    {
+      "bits_hex": "1010900000001000cffb",
+      "sample_end": 459840,
+      "sample_start": 457920,
+      "seconds_end": 9.58,
+      "seconds_start": 9.54,
+      "timecode": "01:00:09:11"
+    },
+    {
+      "bits_hex": "2010900000001000cffb",
+      "sample_end": 461760,
+      "sample_start": 459840,
+      "seconds_end": 9.62,
+      "seconds_start": 9.58,
+      "timecode": "01:00:09:12"
+    },
+    {
+      "bits_hex": "3010900000001000cffb",
+      "sample_end": 463680,
+      "sample_start": 461760,
+      "seconds_end": 9.66,
+      "seconds_start": 9.62,
+      "timecode": "01:00:09:13"
+    },
+    {
+      "bits_hex": "4010900000001000cffb",
+      "sample_end": 465600,
+      "sample_start": 463680,
+      "seconds_end": 9.7,
+      "seconds_start": 9.66,
+      "timecode": "01:00:09:14"
+    },
+    {
+      "bits_hex": "5010900000001000cffb",
+      "sample_end": 467520,
+      "sample_start": 465600,
+      "seconds_end": 9.74,
+      "seconds_start": 9.7,
+      "timecode": "01:00:09:15"
+    },
+    {
+      "bits_hex": "6010900000001000cffb",
+      "sample_end": 469440,
+      "sample_start": 467520,
+      "seconds_end": 9.78,
+      "seconds_start": 9.74,
+      "timecode": "01:00:09:16"
+    },
+    {
+      "bits_hex": "7010900000001000cffb",
+      "sample_end": 471360,
+      "sample_start": 469440,
+      "seconds_end": 9.82,
+      "seconds_start": 9.78,
+      "timecode": "01:00:09:17"
+    },
+    {
+      "bits_hex": "8010900000001000cffb",
+      "sample_end": 473280,
+      "sample_start": 471360,
+      "seconds_end": 9.86,
+      "seconds_start": 9.82,
+      "timecode": "01:00:09:18"
+    },
+    {
+      "bits_hex": "9010900000001000cffb",
+      "sample_end": 475200,
+      "sample_start": 473280,
+      "seconds_end": 9.9,
+      "seconds_start": 9.86,
+      "timecode": "01:00:09:19"
+    },
+    {
+      "bits_hex": "0020900000001000cffb",
+      "sample_end": 477120,
+      "sample_start": 475200,
+      "seconds_end": 9.94,
+      "seconds_start": 9.9,
+      "timecode": "01:00:09:20"
+    },
+    {
+      "bits_hex": "1020900000001000cffb",
+      "sample_end": 479040,
+      "sample_start": 477120,
+      "seconds_end": 9.98,
+      "seconds_start": 9.94,
+      "timecode": "01:00:09:21"
+    },
+    {
+      "bits_hex": "2020900000001000cffb",
+      "sample_end": 480960,
+      "sample_start": 479040,
+      "seconds_end": 10.02,
+      "seconds_start": 9.98,
+      "timecode": "01:00:09:22"
+    },
+    {
+      "bits_hex": "3020900000001000cffb",
+      "sample_end": 482880,
+      "sample_start": 480960,
+      "seconds_end": 10.06,
+      "seconds_start": 10.02,
+      "timecode": "01:00:09:23"
+    },
+    {
+      "bits_hex": "4020900000001000cffb",
+      "sample_end": 484800,
+      "sample_start": 482880,
+      "seconds_end": 10.1,
+      "seconds_start": 10.06,
+      "timecode": "01:00:09:24"
+    }
+  ],
+  "sample_rate": 48000,
+  "segments": [
+    {
+      "end_reason": "end_of_stream",
+      "end_sample": 484800,
+      "end_seconds": 10.1,
+      "end_timecode": "01:00:09:24",
+      "frames": 250,
+      "start_sample": 4800,
+      "start_seconds": 0.1,
+      "start_timecode": "01:00:00:00"
+    }
+  ],
+  "standard": "LTC 25fps non-drop, 80-bit SMPTE frame"
+}
